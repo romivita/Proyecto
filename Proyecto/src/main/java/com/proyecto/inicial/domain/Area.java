@@ -11,7 +11,7 @@ import javax.persistence.ManyToOne;
 @RooJpaActiveRecord
 public class Area {
 
-    /**
+  //HOLA ROMIIII  /**
      */
     @NotNull
     @Size(min = 2)
