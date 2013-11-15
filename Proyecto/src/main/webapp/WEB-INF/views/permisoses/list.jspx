@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_proyecto_inicial_domain_Permisos" items="${permisoses}" z="RQflrKdz5M8KCUOhZOC/S9eakiI=">
+        <table:table data="${permisoses}" id="l_com_proyecto_inicial_domain_Permisos" path="/permisoses" z="/rriN/gQQM/UP2K8Z68itD8w9Rc=">
+            <table:column id="c_com_proyecto_inicial_domain_Permisos_autorizar" property="autorizar" z="MKA+t6EiFdSfgz1qMxd7lEPQ3QM="/>
+            <table:column id="c_com_proyecto_inicial_domain_Permisos_cargar" property="cargar" z="9SW/xgUEhrxCY5puRjwsYy25TQU="/>
+            <table:column id="c_com_proyecto_inicial_domain_Permisos_descargar" property="descargar" z="C2i95eXfn+eiRxO/HDpDPBb9I9s="/>
+            <table:column id="c_com_proyecto_inicial_domain_Permisos_rechazar" property="rechazar" z="BfdehHS2sKGLGqk19F4nJPgrceA="/>
+            <table:column id="c_com_proyecto_inicial_domain_Permisos_abm" property="abm" z="RFf8ygm4FXO8aKAQ/kvR6URSJwI="/>
+            <table:column id="c_com_proyecto_inicial_domain_Permisos_nombre" property="nombre" z="PbxQJmkdQGgDJqKG5AkV1gTYEf8="/>
+        </table:table>
+    </page:list>
+</div>

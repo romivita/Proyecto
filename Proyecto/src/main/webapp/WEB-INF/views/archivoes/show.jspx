@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_proyecto_inicial_domain_Archivo" object="${archivo}" path="/archivoes" z="QsYMmfxBVEXOuddrz96tYivRWPQ=">
+        <field:display field="nombre" id="s_com_proyecto_inicial_domain_Archivo_nombre" object="${archivo}" z="ekPfqE3k51pQuCf/JBEpEOu+e5o="/>
+        <field:display field="autor" id="s_com_proyecto_inicial_domain_Archivo_autor" object="${archivo}" z="RKIdne+/yB965UR2iHawc8l98AM="/>
+        <field:display field="autorizadopor" id="s_com_proyecto_inicial_domain_Archivo_autorizadopor" object="${archivo}" z="raL+ZBW3MZCkM1dNY50lGMWwp8s="/>
+        <field:display date="true" dateTimePattern="${archivo_fecha_date_format}" field="fecha" id="s_com_proyecto_inicial_domain_Archivo_fecha" object="${archivo}" z="vOFDcoiOqDwxcVzSzOHMD+4rCe0="/>
+        <field:display field="tamano" id="s_com_proyecto_inicial_domain_Archivo_tamano" object="${archivo}" z="q2PCCPEqB6Calvo5mR7TJpMwFLA="/>
+        <field:display field="ruta" id="s_com_proyecto_inicial_domain_Archivo_ruta" object="${archivo}" z="DVUhNUOPJSvjktNtH+bIETJsVc8="/>
+        <field:display field="area" id="s_com_proyecto_inicial_domain_Archivo_area" object="${archivo}" z="o9cS9ODhJhDuRt4dwU/+sVjmIqY="/>
+    </page:show>
+</div>

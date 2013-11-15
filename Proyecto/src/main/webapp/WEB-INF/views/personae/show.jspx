@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_proyecto_inicial_domain_Persona" object="${persona}" path="/personae" z="UyDEykpUeZp3fQhwOvBxwJEw+ps=">
+        <field:display field="nombre" id="s_com_proyecto_inicial_domain_Persona_nombre" object="${persona}" z="GNJ+RnaLGq7gcDLzjIgXvODvNKE="/>
+        <field:display field="apellido" id="s_com_proyecto_inicial_domain_Persona_apellido" object="${persona}" z="ndEbruZ+BXdtw8NF55oTuc7PuJE="/>
+        <field:display field="dni" id="s_com_proyecto_inicial_domain_Persona_dni" object="${persona}" z="w91D4jS8954hKGbJADwfi3rCIEA="/>
+        <field:display field="telefono" id="s_com_proyecto_inicial_domain_Persona_telefono" object="${persona}" z="TzuurrYvW6/nWAwZ8ui6tNAZd9k="/>
+        <field:display field="usuario" id="s_com_proyecto_inicial_domain_Persona_usuario" object="${persona}" z="nHJCRN5uHtRXs8WxwTWdd0t2axc="/>
+        <field:display field="contrasena" id="s_com_proyecto_inicial_domain_Persona_contrasena" object="${persona}" z="Y9lSSNG7RAtt3yA4myrY1LsMHto="/>
+        <field:display field="rol" id="s_com_proyecto_inicial_domain_Persona_rol" object="${persona}" z="yAKgoEdHQh2/RACLpcwKq8UPBBo="/>
+        <field:display field="enable" id="s_com_proyecto_inicial_domain_Persona_enable" object="${persona}" z="VsSAc/rAd+X+Us40re5aYIlLlIM="/>
+        <field:display field="grupo" id="s_com_proyecto_inicial_domain_Persona_grupo" object="${persona}" z="JFuir3GNSf0ikKnPoQH32dQIlXQ="/>
+    </page:show>
+</div>

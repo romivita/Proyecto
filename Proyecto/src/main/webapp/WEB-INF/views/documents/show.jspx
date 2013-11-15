@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_proyecto_inicial_domain_Document" object="${document}" path="/documents" update="false" z="86nNbxJg878+DkHj2zuew4LUkqk=">
+        <field:display field="name" id="s_com_proyecto_inicial_domain_Document_name" object="${document}" z="yQjKLB+fqcaQ7l0uIEj/CSGdyMk="/>
+        <field:display field="description" id="s_com_proyecto_inicial_domain_Document_description" object="${document}" z="E3MkchLzaVL/rPo+4MZgXCMed1s="/>
+        <field:display field="filename" id="s_com_proyecto_inicial_domain_Document_filename" object="${document}" z="gOfG0Ahshp1WME5mwMSOrir2VNU="/>
+        <field:display field="contentType" id="s_com_proyecto_inicial_domain_Document_contentType" object="${document}" z="xDGQvY2dPbSQUU0dUJ4/IukhQDs="/>
+        <field:display field="size" id="s_com_proyecto_inicial_domain_Document_size" object="${document}" z="jL9HwM7IMfHYCsVQGvfADWLr/8w="/>
+        <field:frame field="url" id="s_com_proyecto_inicial_domain_Document_url" object="${document}" render="true" z="user-managed"/>
+        <field:display field="content" id="s_com_proyecto_inicial_domain_Document_content" object="${document}" z="hHaQ8MtXdoUfy/mskm+6ARhWmlY="/>
+    </page:show>
+</div>

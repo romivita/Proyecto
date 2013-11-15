@@ -1,0 +1,47 @@
+<aspectj>
+<aspects>
+<aspect name="com.proyecto.inicial.domain.Rol_Roo_ToString"/>
+<aspect name="com.proyecto.inicial.domain.Persona_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.proyecto.inicial.domain.Grupo_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.proyecto.inicial.domain.Sucursal_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.Grupo_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.Area_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.proyecto.inicial.web.GrupoController_Roo_Controller"/>
+<aspect name="com.proyecto.inicial.domain.Permisos_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.proyecto.inicial.web.AreaController_Roo_Controller"/>
+<aspect name="com.proyecto.inicial.domain.Sucursal_Roo_JavaBean"/>
+<aspect name="com.proyecto.inicial.domain.Rol_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.proyecto.inicial.domain.Rol_Roo_JavaBean"/>
+<aspect name="com.proyecto.inicial.domain.Grupo_Roo_JavaBean"/>
+<aspect name="com.proyecto.inicial.web.PersonaController_Roo_Controller"/>
+<aspect name="com.proyecto.inicial.domain.Area_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.Document_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.Rol_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.Sucursal_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.proyecto.inicial.domain.Sucursal_Roo_ToString"/>
+<aspect name="com.proyecto.inicial.domain.Grupo_Roo_Jpa_Entity"/>
+<aspect name="com.proyecto.inicial.web.SucursalController_Roo_Controller"/>
+<aspect name="com.proyecto.inicial.web.PermisosController_Roo_Controller"/>
+<aspect name="com.proyecto.inicial.domain.Document_Roo_Jpa_Entity"/>
+<aspect name="com.proyecto.inicial.domain.Grupo_Roo_ToString"/>
+<aspect name="com.proyecto.inicial.web.DocumentController_Roo_Controller"/>
+<aspect name="com.proyecto.inicial.domain.Persona_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.Permisos_Roo_JavaBean"/>
+<aspect name="com.proyecto.inicial.domain.Document_Roo_JavaBean"/>
+<aspect name="com.proyecto.inicial.domain.Permisos_Roo_Jpa_Entity"/>
+<aspect name="com.proyecto.inicial.domain.Area_Roo_Jpa_Entity"/>
+<aspect name="com.proyecto.inicial.web.RolController_Roo_Controller"/>
+<aspect name="com.proyecto.inicial.domain.Sucursal_Roo_Jpa_Entity"/>
+<aspect name="com.proyecto.inicial.domain.Rol_Roo_Jpa_Entity"/>
+<aspect name="com.proyecto.inicial.domain.Area_Roo_ToString"/>
+<aspect name="com.proyecto.inicial.domain.Persona_Roo_Jpa_Entity"/>
+<aspect name="com.proyecto.inicial.domain.Persona_Roo_JavaBean"/>
+<aspect name="com.proyecto.inicial.domain.Permisos_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.Document_Roo_ToString"/>
+<aspect name="com.proyecto.inicial.domain.Permisos_Roo_ToString"/>
+<aspect name="com.proyecto.inicial.domain.Document_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.proyecto.inicial.domain.Area_Roo_JavaBean"/>
+<aspect name="com.proyecto.inicial.domain.Persona_Roo_ToString"/>
+</aspects>
+</aspectj>
+

@@ -1,0 +1,201 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-25 22:29:34
+project --topLevelPackage com.proyecto.inicial --projectName Proyecto --java 7 --packaging WAR
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-25 22:30:12
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-25 22:32:27
+jpa setup --provider HIBERNATE --database MYSQL --databaseName proyecto
+entity jpa --class ~.domain.Persona --testAutomatically
+field string --fieldName nombre --notNull --sizeMin 2
+field string --fieldName apellido --notNull --sizeMin 2
+field number --fieldName dni --type java.lang.Int
+field number --fieldName telefono --type java.lang.Long
+entity jpa --class ~.domain.Usuario --testAutomatically
+// [failed] field string --fieldName user --notNull --sizeMin 2
+field string --fieldName usuario --notNull --sizeMin 2
+field string --fieldName contrasena --notNull --sizeMin 6
+entity jpa --class ~.domain.Grupo --testAutomatically
+field string --fieldName nombre --notNull --sizeMin 2
+entity jpa --class ~.domain.Permisos --testAutomatically
+field number --fieldName autorizar --type java.lang.Boolean
+field number --fieldName cargar --type java.lang.Boolean
+field number --fieldName descargar --type java.lang.Boolean
+field number --fieldName rechazar --type java.lang.Boolean
+field number --fieldName abm --type java.lang.Boolean
+entity jpa --class ~.domain.Sucursal --testAutomatically
+field string --fieldName nombre --notNull --sizeMin 2
+field string --fieldName direccion --notNull --sizeMin 2
+field string --fieldName telefono --notNull --sizeMin 2
+entity jpa --class ~.domain.Area --testAutomatically
+field string --fieldName nombre --notNull --sizeMin 2
+entity jpa --class ~.domain.Archivo --testAutomatically
+field string --fieldName nombre --notNull --sizeMin 2
+field string --fieldName autor --notNull --sizeMin 2
+field string --fieldName autorizadopor --notNull --sizeMin 2
+field date --fieldName fecha --type java.util.Date
+field number --fieldName tamano --type java.lang.Float 
+field string --fieldName ruta --sizeMin 2
+// [failed] field reference --fieldName Area --type ~.domain.nombre
+focus --class ~.domain.Archivo
+focus --class ~.domain.Area
+focus --class ~.domain.Archivo
+// [failed] field reference --fieldName nombre --type ~.domain.Area
+field reference --fieldName area --type ~.domain.Area
+focus --class ~.domain.Area
+field reference --fieldName sucursal --type ~.domain.Sucursal
+focus --class ~.domain.Sucursal
+field reference --fieldName grupo --type ~.domain.Grupo
+focus --class ~.domain.Grupo
+field set --fieldName persona --type ~.domain.Persona
+field set --fieldName permisos --type ~.domain.Permisos
+focus --class ~.domain.Persona
+field set --fieldName usuario --type ~.domain.Usuario
+field set --fieldName usuario --type ~.domain.Usuario
+// [failed] perform tests
+// [failed] focus --class ~.domain
+// [failed] perform tests
+web mvc setup
+web mvc all --package ~.web
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-26 00:50:21
+web mvc all --package ~.web
+web mvc all --package ~.web
+hint
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-26 00:55:01
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-26 00:56:50
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-26 01:37:46
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-26 16:21:24
+web mvc all --package ~.web
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-27 07:13:04
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-27 21:33:44
+web mvc all --package ~.web
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-27 23:27:51
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-28 00:13:05
+web mvc all --package ~.web
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-28 00:18:14
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-28 14:33:17
+controller all --package ~.web
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc all --package ~.web
+entity jpa --class ~.domain.Upload --testAutomatically
+web mvc all --package ~.web
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-28 18:35:40
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-28 15:05:17
+web mvc all --package ~.web
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-28 18:27:05
+entity jpa --class ~.domain.Documento --testAutomatically
+field string    --fieldName name        --notNull --sizeMax 30
+field string    --fieldName description     --sizeMax 500
+field string    --fieldName filename        --notNull 
+field string    --fieldName contentType     --notNull 
+controller all  --package ~.web
+// [failed] perform clean
+// [failed] perform eclipse
+web mvc all --package ~.web
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-28 19:42:00
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-28 19:45:56
+focus --class ~.domain.Documento
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc all --package ~.web
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-28 20:45:52
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-29 10:24:51
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-29 10:30:45
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-29 19:26:50
+entity jpa --class ~.domain.Document
+field string    --fieldName name        --notNull --sizeMax 30
+field string    --fieldName description     --sizeMax 500
+field string    --fieldName filename        --notNull 
+field string    --fieldName contentType     --notNull 
+// [failed] field number --fieldName size --type float
+field number --fieldName sizes --type float
+web mvc all --package ~.web
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-29 20:42:01
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-30 09:19:16
+hint
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-30 09:58:48
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-30 09:58:58
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-30 10:36:11
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-31 09:44:28
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-31 10:08:24
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-31 10:08:47
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-31 10:13:15
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-01 11:17:08
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-01 12:27:21
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-04 09:58:22
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-04 10:35:31
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-04 10:35:43
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-04 10:40:48
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-04 10:41:29
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-04 10:52:57
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-04 10:53:24
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-04 10:58:57
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-04 10:59:09
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-04 11:00:36
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-04 11:00:44
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-04 11:07:41
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-04 11:07:52
+focus --class ~.domain.Persona
+// [failed] field string --fieldName usuario --notNull --sizeMin 2
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-04 11:16:33
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-04 11:16:45
+focus --class ~.domain.Persona
+field string --fieldName usuario --notNull --sizeMin 2
+// [failed] field string --fieldName usuario --notNull --sizeMin 6 --sizeMax 15
+field string --fieldName contrasena --notNull --sizeMin 6 --sizeMax 15
+field reference --fieldName grupo --type ~.domain.Grupo
+field set --fieldName grupo --type ~.domain.Grupo
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-04 12:23:12
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-04 12:23:27
+focus --class ~.domain.Permisos
+field string --fieldName nombre --notNull --sizeMin 2
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-04 13:03:27
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-05 18:27:45
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-05 18:38:23
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-07 09:52:12
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-07 10:26:10
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-07 10:43:40
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-07 11:03:45
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-07 11:19:13
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-07 11:55:06
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-07 12:40:34
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-07 12:45:00
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-07 13:13:44
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-07 13:24:44
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-07 13:26:35
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-07 13:34:28
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-07 15:03:55
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-07 15:46:00
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-07 17:24:05
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-07 17:36:47
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-07 17:37:04
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-07 17:48:00
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-07 17:49:44
+focus --class ~.domain.Persona
+field set --fieldName grupo --type ~.domain.Grupo
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-07 18:14:47
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-07 18:15:01
+security setup
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-07 20:24:23
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-07 21:41:34
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-07 21:56:56
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-08 08:56:21
+entity jpa --class ~.domain.Rol --testAutomatically
+field string --fieldName nombre --notNull --sizeMin 2
+focus --class ~.domain.Persona
+field set --fieldName rol --type ~.domain.Rol
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-08 09:43:38
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-13 09:21:03
+web mvc all --package ~.web
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-13 13:10:18
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-13 13:11:27
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-13 13:14:54
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-13 13:15:07
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-13 13:24:40
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-13 17:21:14
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-13 17:21:59
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-13 17:22:16
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-13 17:24:56
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-13 17:25:04
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-14 09:00:44
+field set --fieldName personas --type ~.domain.Persona --mappedBy grupos --notNull false --cardinality MANY_TO_MANY --class ~.domain.Persona
+field set --fieldName personas --type ~.domain.Persona --mappedBy grupos --notNull false --cardinality MANY_TO_MANY --class ~.domain.Grupo
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-14 18:25:24

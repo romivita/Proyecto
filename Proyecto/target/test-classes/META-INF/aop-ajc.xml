@@ -1,0 +1,29 @@
+<aspectj>
+<aspects>
+<aspect name="com.proyecto.inicial.domain.GrupoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.proyecto.inicial.domain.PermisosIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.proyecto.inicial.domain.RolIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.proyecto.inicial.domain.AreaIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.proyecto.inicial.domain.PersonaDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.proyecto.inicial.domain.RolDataOnDemand_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.SucursalIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.proyecto.inicial.domain.AreaIntegrationTest_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.PersonaDataOnDemand_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.RolIntegrationTest_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.PersonaIntegrationTest_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.SucursalDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.proyecto.inicial.domain.SucursalDataOnDemand_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.PermisosDataOnDemand_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.PermisosDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.proyecto.inicial.domain.PersonaIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.proyecto.inicial.domain.AreaDataOnDemand_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.AreaDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.proyecto.inicial.domain.RolDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.proyecto.inicial.domain.SucursalIntegrationTest_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.GrupoIntegrationTest_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.GrupoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.proyecto.inicial.domain.PermisosIntegrationTest_Roo_Configurable"/>
+<aspect name="com.proyecto.inicial.domain.GrupoDataOnDemand_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

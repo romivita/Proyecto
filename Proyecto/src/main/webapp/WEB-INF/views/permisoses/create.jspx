@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_proyecto_inicial_domain_Permisos" modelAttribute="permisos" path="/permisoses" render="${empty dependencies}" z="BoeBGoVzQuJW00iTxlG9NIHHSx4=">
+        <field:checkbox field="autorizar" id="c_com_proyecto_inicial_domain_Permisos_autorizar" z="rssNM2XJnXUtRkdNxgG9cSIyYjM="/>
+        <field:checkbox field="cargar" id="c_com_proyecto_inicial_domain_Permisos_cargar" z="4gK0B7RhCR2s7n2pasO9vY4UxHs="/>
+        <field:checkbox field="descargar" id="c_com_proyecto_inicial_domain_Permisos_descargar" z="821dIwXKv68Axfv6k0M1d/R9RVE="/>
+        <field:checkbox field="rechazar" id="c_com_proyecto_inicial_domain_Permisos_rechazar" z="UA+cInxwIXcKJt4jJHq/VXvfpVE="/>
+        <field:checkbox field="abm" id="c_com_proyecto_inicial_domain_Permisos_abm" z="bWW8Wlw+bJURpzMzgqB+Jk7aqts="/>
+        <field:input field="nombre" id="c_com_proyecto_inicial_domain_Permisos_nombre" min="2" required="true" z="F0mWcahvV5j2hR+B5P1W4Ns3wzg="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_proyecto_inicial_domain_Permisos" render="${not empty dependencies}" z="yzYJad1Y3OsjD3XqssYfX2OHqCA="/>
+</div>

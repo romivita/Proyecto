@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_proyecto_inicial_domain_Archivo" items="${archivoes}" z="meBCd6ww4YzKOKgHPRrBVjYcXUE=">
+        <table:table data="${archivoes}" id="l_com_proyecto_inicial_domain_Archivo" path="/archivoes" z="wlFKPC0WjF21L7X+/inTIeh+/D4=">
+            <table:column id="c_com_proyecto_inicial_domain_Archivo_nombre" property="nombre" z="vGM+D2h5zTtRELwENb0CsbBMmvc="/>
+            <table:column id="c_com_proyecto_inicial_domain_Archivo_autor" property="autor" z="8r5Cy2KVOPQjQajJtq0lWkWbizQ="/>
+            <table:column id="c_com_proyecto_inicial_domain_Archivo_autorizadopor" property="autorizadopor" z="4TD9rtwqb2y7qnzOvZQfo0kBg9k="/>
+            <table:column date="true" dateTimePattern="${archivo_fecha_date_format}" id="c_com_proyecto_inicial_domain_Archivo_fecha" property="fecha" z="HjoywtWSbftDaOR1+gWmApmZpw8="/>
+            <table:column id="c_com_proyecto_inicial_domain_Archivo_tamano" property="tamano" z="6K7AaB27FWwfANP8hYiZxZz78iM="/>
+            <table:column id="c_com_proyecto_inicial_domain_Archivo_ruta" property="ruta" z="Ek3+EmJ7i91px3b1d2/E2iPeTGg="/>
+        </table:table>
+    </page:list>
+</div>

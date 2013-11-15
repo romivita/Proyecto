@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_proyecto_inicial_domain_Permisos" object="${permisos}" path="/permisoses" z="0UeVzoEvMfA8BO/iZOYe9Lr0afA=">
+        <field:display field="autorizar" id="s_com_proyecto_inicial_domain_Permisos_autorizar" object="${permisos}" z="QdY299IqFUWYhPm6SOwPAIdPUnk="/>
+        <field:display field="cargar" id="s_com_proyecto_inicial_domain_Permisos_cargar" object="${permisos}" z="wZQLoDEYyRe07p6Ji9zW/xAkgJg="/>
+        <field:display field="descargar" id="s_com_proyecto_inicial_domain_Permisos_descargar" object="${permisos}" z="vBISxrv6K9pIEgmqW3WN8+ItOQA="/>
+        <field:display field="rechazar" id="s_com_proyecto_inicial_domain_Permisos_rechazar" object="${permisos}" z="slI+tex8u8BBN+YDiDE/0/yGX7U="/>
+        <field:display field="abm" id="s_com_proyecto_inicial_domain_Permisos_abm" object="${permisos}" z="ZJqzm/SBke6H22hms53LmaEEcrI="/>
+        <field:display field="nombre" id="s_com_proyecto_inicial_domain_Permisos_nombre" object="${permisos}" z="CihBXrfMQcmoz8ii+03C88styC4="/>
+    </page:show>
+</div>

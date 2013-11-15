@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_proyecto_inicial_domain_Persona" items="${personae}" z="2rOpBsHHUtF+VuFGsoNhrbqt9rw=">
+        <table:table data="${personae}" id="l_com_proyecto_inicial_domain_Persona" path="/personae" z="K15PVPqYpHAvWSD/0srG1lYox+I=">
+            <table:column id="c_com_proyecto_inicial_domain_Persona_nombre" property="nombre" z="TgloSA/6yAqYh8T5THbltaGQ3tc="/>
+            <table:column id="c_com_proyecto_inicial_domain_Persona_apellido" property="apellido" z="vN3ZjM2nw0/DORqusp3KA3xmR4c="/>
+            <table:column id="c_com_proyecto_inicial_domain_Persona_dni" property="dni" z="EGqIYCo/3QS72+LiLondjtCskNk="/>
+            <table:column id="c_com_proyecto_inicial_domain_Persona_telefono" property="telefono" z="d35P1Opvji+MxCHFP2ID0A92OhE="/>
+            <table:column id="c_com_proyecto_inicial_domain_Persona_usuario" property="usuario" z="rWs2bHc7uDNoSkHUytKljMgtPWg="/>
+            <table:column id="c_com_proyecto_inicial_domain_Persona_contrasena" property="contrasena" z="60pK3PML1y3gtEs9ODDvja6U2sc="/>
+        </table:table>
+    </page:list>
+</div>

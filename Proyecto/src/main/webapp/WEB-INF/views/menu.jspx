@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:sec="http://www.springframework.org/security/tags" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+    
+    	<sec:authorize ifAllGranted="ROLE_ADMIN">
+        <menu:category id="c_persona" z="HGx10uPnaEw3eOO50fIb9qf5jiI=">
+            <menu:item id="i_persona_new" messageCode="global_menu_new" url="/personae?form" z="7Y0KdFKrjpWljePDcf4RoDAeOUA="/>
+            <menu:item id="i_persona_list" messageCode="global_menu_list" url="/personae?page=1&amp;size=${empty param.size ? 10 : param.size}" z="/MWcaTHST1kjwDWGXluGyXbYCJo="/>
+        </menu:category>
+        
+        
+        <menu:category id="c_permisos" z="8LVet4vORL+1conPSVVNAo/rHGI=">
+            <menu:item id="i_permisos_new" messageCode="global_menu_new" url="/permisoses?form" z="XyvadYQIrh/UvUoLjnwbIU1KwEA="/>
+            <menu:item id="i_permisos_list" messageCode="global_menu_list" url="/permisoses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="u5PMAlfRA0wk8P/dNib0tnATGDQ="/>
+        </menu:category>
+        
+        
+        <menu:category id="c_area" z="iS7Vpexh3RxjWLqosFEDilbMD7k=">
+            <menu:item id="i_area_new" messageCode="global_menu_new" url="/areas?form" z="nUCyaKOQhlvbWKgDghur8d6AXbM="/>
+            <menu:item id="i_area_list" messageCode="global_menu_list" url="/areas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Ctslq7uAHXyhb01MpxHhzB5nZcE="/>
+        </menu:category>
+     
+        
+        <menu:category id="c_archivo" z="6gSGf0bbTf1+bu6bkbNQA5U1EDg=">
+            <menu:item id="i_archivo_new" messageCode="global_menu_new" url="/archivoes?form" z="chx4AUnmKdTUmtHA8BOeyS6KUEY="/>
+            <menu:item id="i_archivo_list" messageCode="global_menu_list" url="/archivoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="6JGU9TTilV+45BDW9W9BTcSoBMg="/>
+        </menu:category>
+        
+        <menu:category id="c_grupo" z="aEc7CUb6jPdvenY+zZYtXPTsF6A=">
+            <menu:item id="i_grupo_new" messageCode="global_menu_new" url="/grupoes?form" z="w/Bv5V+m4clKPWr5NSSRzQPz8Nc="/>
+            <menu:item id="i_grupo_list" messageCode="global_menu_list" url="/grupoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="O3uVN41ElSwPLWcQ8uEDcvkEyRc="/>
+        </menu:category>
+        
+        <menu:category id="c_sucursal" z="qN2r56zm5K6QnxDWJ00gRZ+bu84=">
+            <menu:item id="i_sucursal_new" messageCode="global_menu_new" url="/sucursals?form" z="6dxGCPOx1Gd5cL3kYmOux/+989c="/>
+            <menu:item id="i_sucursal_list" messageCode="global_menu_list" url="/sucursals?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Rkn6g9K8ST6KwVdqSD+GGmucSdU="/>
+        </menu:category>
+        
+        <menu:category id="c_rol" z="WyJ0DN0p4cfPsGF7WGHEFk6Ok1k=">
+            <menu:item id="i_rol_new" messageCode="global_menu_new" url="/rols?form" z="pci13zJkyKMJXhGhbCY9f9yBMb4="/>
+            <menu:item id="i_rol_list" messageCode="global_menu_list" url="/rols?page=1&amp;size=${empty param.size ? 10 : param.size}" z="GQHH+mdvcxfHlFAlkR2gFwHsv1s="/>
+        </menu:category>
+        </sec:authorize>
+        
+        <menu:category id="c_document" z="IwaW5r7KHuYYhv8LICTHRKgUWao=">
+            <menu:item id="i_document_new" messageCode="global_menu_new" url="/documents?form" z="bv1eg7qAwaBE1ATd78QiQm2M3ZE="/>
+            <menu:item id="i_document_list" messageCode="global_menu_list" url="/documents?page=1&amp;size=${empty param.size ? 10 : param.size}" z="p196XK4gvGXOnIrUwDqNS/p7fzE="/>
+        </menu:category>
+        
+        
+    </menu:menu>
+</div>

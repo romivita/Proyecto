@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_proyecto_inicial_domain_Grupo" object="${grupo}" path="/grupoes" z="ayFA4R/K5rh1leaRIuM/P9xSkTU=">
+        <field:display field="nombre" id="s_com_proyecto_inicial_domain_Grupo_nombre" object="${grupo}" z="fMuxHyB34iYhpWf4gLLfnPc5pKo="/>
+        <field:display field="sucursal" id="s_com_proyecto_inicial_domain_Grupo_sucursal" object="${grupo}" z="f/1XYs6DZ5Qdgp4IJ5mHnCMUYzQ="/>
+        <field:display field="permisos" id="s_com_proyecto_inicial_domain_Grupo_permisos" object="${grupo}" z="QQBeoogGyQgaOvZXEHCcC06/l/M="/>
+        <field:display field="persona" id="s_com_proyecto_inicial_domain_Grupo_persona" object="${grupo}" z="O6ihGKXliBfByC2MCTglgUKD4TI="/>
+    </page:show>
+</div>

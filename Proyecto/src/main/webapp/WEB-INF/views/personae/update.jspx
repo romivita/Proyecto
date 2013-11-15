@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_proyecto_inicial_domain_Persona" modelAttribute="persona" path="/personae" versionField="Version" z="jPw299bgeYHpMSfq4JX/O8jb+iE=">
+        <field:input field="nombre" id="c_com_proyecto_inicial_domain_Persona_nombre" min="2" required="true" z="1T9zmsueuOPthOT4vqYGUcePdqA="/>
+        <field:input field="apellido" id="c_com_proyecto_inicial_domain_Persona_apellido" min="2" required="true" z="Bc3BdxBxROBmeZzu+8RaiBWJ3Yg="/>
+        <field:input field="dni" id="c_com_proyecto_inicial_domain_Persona_dni" required="true" validationMessageCode="field_invalid_integer" z="3LYZR07ReVl/yy4tqHzPCNS5G9Q="/>
+        <field:input field="telefono" id="c_com_proyecto_inicial_domain_Persona_telefono" validationMessageCode="field_invalid_integer" z="43bpu/TiCU7V6jSydAq+J1KxagQ="/>
+        <field:input field="usuario" id="c_com_proyecto_inicial_domain_Persona_usuario" min="2" required="true" z="vwQk0JPwksCPsNqOUG10KX2SUuU="/>
+        <field:input field="contrasena" id="c_com_proyecto_inicial_domain_Persona_contrasena" max="15" min="6" required="true" z="wKfgoEb1aORqEwhP5fJ9Kez6H3o="/>
+        <field:select field="rol" id="c_com_proyecto_inicial_domain_Persona_rol" itemValue="id" items="${rols}" multiple="true" path="/rols" z="pmO5yDoR/9EZJh5+U21ntIRr+SA="/>
+        <field:checkbox field="enable" id="c_com_proyecto_inicial_domain_Persona_enable" z="8rXoP9QgWtu96qLIAasJnIQ/Rwo="/>
+        <field:select field="grupo" id="c_com_proyecto_inicial_domain_Persona_grupo" itemValue="id" items="${grupoes}" multiple="true" path="/grupoes" z="kcTVAA1DqABWNwUYDf748bmb4nU="/>
+    </form:update>
+</div>
